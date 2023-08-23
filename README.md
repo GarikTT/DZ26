@@ -21,7 +21,10 @@
 	Формат сдачи ДЗ - vagrant + ansible
 Начинаем выполнять задание по шагам. Ага -
 script --timing=time_loading_log loading.log
+</pre>
+
 1. Создаем файл ([Vagrantfile](Vagrantfile)) и запускаем его.
+<pre>
 vagrant up
 
 В файле `/etc/ssh/sshd_config` на сервере "backup" и "client" установливаем следующие параметры:
