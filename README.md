@@ -61,7 +61,7 @@ borg init --encryption=repokey borg@192.168.56.10:/var/backup/
 borg create --stats --list borg@192.168.56.10:/var/backup/::etc-{now:%Y-%m-%d_%H:%M:%S} /etc
 borg list borg@192.168.56.10:/var/backup/
 borg extract borg@192.168.56.10:/var/backup/::etc-2023-08-23_01:02:19 etc/hostname // !!! Нужно скопировать имя архива!!!
-5.	Автоматизируем создание бэкапов с помощью systemd
+5. Автоматизируем создание бэкапов с помощью systemd
 Создаем сервис и таймер в каталоге /etc/systemd/system/
 
 cat > /etc/systemd/system/borg-backup.service (ссылка)
@@ -125,6 +125,7 @@ chmod +x /home/vagrant/backupscript.sh
 
 9. Вставляем в файл /etc/crontab строку -
 "*/2 * * * * root /home/vagrant/backupscript.sh >> /var/log/backup.log"
+Честно говоря, ошибка была в обязательном символе перевода строки.
 
 10. Настраиваем логирование процесса бекапа. Для этого в файле /etc/rsyslog.conf, находим строку #cron.* и заменяем ее на:
 cron.*          /var/log/backup.log
