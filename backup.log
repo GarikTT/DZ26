@@ -1,0 +1,71 @@
+Aug 23 01:10:01 client crond[391]: (*system*) RELOAD (/etc/crontab)
+Aug 23 01:33:01 client crond[391]: (*system*) RELOAD (/etc/crontab)
+Aug 23 01:34:01 client CROND[4159]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:34:01
+
+Backup complete: etc-2023-08-2301:34:01
+Aug 23 01:36:01 client CROND[4204]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:36:01
+
+Backup complete: etc-2023-08-2301:36:01
+Aug 23 01:38:01 client CROND[4223]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:38:01
+
+Backup complete: etc-2023-08-2301:38:01
+Aug 23 01:40:01 client CROND[4238]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:40:01
+
+Backup complete: etc-2023-08-2301:40:01
+Aug 23 01:42:02 client CROND[4273]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:42:02
+
+Backup complete: etc-2023-08-2301:42:02
+Aug 23 01:43:01 client anacron[3697]: Job `cron.daily' started
+Aug 23 01:43:01 client run-parts(/etc/cron.daily)[4286]: starting logrotate
+Aug 23 01:43:01 client run-parts(/etc/cron.daily)[4294]: finished logrotate
+Aug 23 01:43:01 client run-parts(/etc/cron.daily)[4286]: starting man-db.cron
+Aug 23 01:43:27 client run-parts(/etc/cron.daily)[24933]: finished man-db.cron
+Aug 23 01:43:27 client anacron[3697]: Job `cron.daily' terminated
+Aug 23 01:44:01 client CROND[24936]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:44:01
+
+Backup complete: etc-2023-08-2301:44:01
+Aug 23 01:46:01 client CROND[24952]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:46:01
+
+Backup complete: etc-2023-08-2301:46:01
+Aug 23 01:48:01 client CROND[24986]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:48:01
+
+Backup complete: etc-2023-08-2301:48:01
+Aug 23 01:50:01 client CROND[25001]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:50:01
+
+Backup complete: etc-2023-08-2301:50:01
+Aug 23 01:52:01 client CROND[25017]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:52:01
+
+Backup complete: etc-2023-08-2301:52:01
+Aug 23 01:54:01 client CROND[25052]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:54:01
+
+Backup complete: etc-2023-08-2301:54:01
+Aug 23 01:56:01 client CROND[25067]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:56:01
+
+Backup complete: etc-2023-08-2301:56:01
+Aug 23 01:58:01 client CROND[25083]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2301:58:01
+
+Backup complete: etc-2023-08-2301:58:01
+Aug 23 02:00:01 client CROND[25117]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2302:00:01
+
+Backup complete: etc-2023-08-2302:00:01
+Aug 23 02:01:01 client CROND[25132]: (root) CMD (run-parts /etc/cron.hourly)
+Aug 23 02:01:01 client run-parts(/etc/cron.hourly)[25132]: starting 0anacron
+Aug 23 02:01:01 client run-parts(/etc/cron.hourly)[25141]: finished 0anacron
+Aug 23 02:02:01 client CROND[25148]: (root) CMD (/home/vagrant/backupscript.sh >> /var/log/backup.log)
+Starting backup: etc-2023-08-2302:02:01
+
+Backup complete: etc-2023-08-2302:02:01
